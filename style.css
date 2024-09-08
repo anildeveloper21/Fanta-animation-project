@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+}
+nav{
+
+    position: fixed;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 10vw;
+    width: 100%;
+    height: 10vh;
+    /* background-color: white; */
+}
+nav a,i{
+    font-size: 1.3vw;
+    text-decoration: none;
+    color: #fff;
+}
+.cntr-nav{
+    display: flex;
+    gap: 3vw;
+}
+nav i{
+    font-size: 1.6vw;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 145, 0, 0.904)
+}
+#fanta{
+    position: absolute;
+    width: 26%;
+    z-index: 2;
+}
+.one h1{
+    font-size: 20vw;
+    font-family: outfit;
+    color: #fff;
+}
+#orange-cut{
+    width: 13%;
+    position: absolute;
+    top: 13%;
+    left: 34%;
+    z-index: 1;
+}
+#orange{
+    position: absolute;
+    width: 21%;
+    z-index: 3;
+    top: 48%;
+    right: 31%;
+}
+#leaf{
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    left: 0;
+    transform: rotate(35deg);
+}
+#leat{
+    position: absolute;
+    width: 14%;
+    top: 58%;
+    left: 75%;
+    transform: rotate(35deg);
+}
+#coconut{
+    position: absolute;
+    width: 16%;
+    top: 0;
+    right: 0;
+
+}
+/* ================================================ */
+
+.two{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+.lft-two, .rght-two{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5vh;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(102, 30, 30);
+}
+
+.lft-two svg{
+    margin-top: 50vh;
+    width: 90%;
+    /* background-color: skyblue; */
+    transform: rotateX(60deg)
+}
+.rght-two h1{
+    color: #fff;
+    font-size: 5vw;
+}
+.rght-two p{
+    color: #fff;
+    font-size: 1vw;
+    width: 80%;
+}
+
+/* ============================================= */
+.three{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 145, 0, 0.904)
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    gap: 2vh;
+    width: 25vw;
+    height: 68vh;
+    border-radius: 1vw;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(176,52,69,1) 14%, rgba(174,223,55,1) 44%, rgba(232,7,7,1) 76%, rgba(232,7,7,1) 89%, rgba(55,249,113,1) 100%);
+
+}
+
+.card h1{
+    font-size: 2.5vw;
+    margin-top: 40vh;
+}
+.card button{
+    border-radius: 50px;
+    font-size: 1.1vw;
+    padding: 0.9vw 1.8vw;
+    border: none;
+    background-color: orange;
+    font-weight: bolder;
+    color: #fff;
+}
+#coca{
+    top: 18%;
+    position: absolute;
+    width: 22%;
+}
+#pepsi{
+    top: 13.2%;
+    position: absolute;
+    width: 36%;
+}
+#fanti{
+    top: 17%;
+    position: absolute;
+    width: 23%;
+}
+.lemon{
+    position: absolute;
+    top: 6%;
+    width: 18vw;
+}
